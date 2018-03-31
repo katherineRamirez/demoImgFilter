@@ -6,6 +6,7 @@ const imageContainer = document.getElementById('container');
 const image = document.createElement('img'); // Creamos un elemento img para la imagen de prueba
 image.setAttribute('id', 'myImage'); // Asignamos atributo id a la imagen
 image.setAttribute('src', 'demo/images/img2.jpg');
+image.setAttribute('class', 'img1 img')
 imageContainer.appendChild(image); // Al contenedor le asignamos el hijo imagen
 
 // Variable para el botón con filtro sepia
